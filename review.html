@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <img src="images/saylani post.PNG" alt="saylani">
+    <form action="submit.html">
+        <fieldset id="center">
+            <legend><h1>Your Review:</h1></legend>
+            <label for="hear-about"><b>How did you hear about us?</b></label><br></br>
+            <select name="referrer" name="hear-about">
+                <option value="Select Options">Select Options</option>
+                <option value="google">Google</option>
+                <option value="friend">Friend</option>
+                <option value="advert">Advert</option>
+                <option value="other">Other</option><br>
+            </select><br></br>
+            <label for="visit"><b>Would you visit again?</b></label><br></br>
+            <input type="radio" name="rating" value="yes" /> Yes
+            <input type="radio" name="rating" value="no" /> No
+            <input type="radio" name="rating" value="maybe" /> Maybe<br></br>
+            <label for="comments"><b>Comments:</b></label><br></br>
+            <textarea rows="4" cols="40" name="comments" placeholder="Write Your Comment..."></textarea><br>
+            <h2>THANKS FOR YOUR REVIEW!</h2>
+            <a href="index.html"><input type="button" id="back" value="<<Back"></a>
+        </fieldset>
+        <br>
+        <input type="submit" id="submit" value="SUBMIT"><br></br>
+    </form>
+</body>
+</html>

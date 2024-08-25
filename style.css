@@ -1,0 +1,66 @@
+form {
+    background-color: white;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+fieldset {
+    text-align: left;
+    color: black;
+}
+legend {
+    text-align: center;
+    color: black;
+}
+h1 , h2 {
+    text-align: center;
+    color:#8dc63f;
+}
+#center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+#cnic {
+    width: 10px;
+}
+#next , #back {
+    text-align: center;
+    background-color: #1890ff;
+    border: 2px solid #1890ff;
+    border-radius: 4px;
+    color:white;
+    padding: 10px;
+    text-decoration:none;
+    font-size: 10px; 
+    width: 100%;
+    cursor: pointer;
+}
+#back {
+    text-align: center;
+    background-color: lightgray;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    color: black;
+    padding: 10px;
+    text-decoration:none;
+    font-size: 15px;
+    width: 100%; 
+    cursor: pointer;
+}
+#submit {
+    background-color: #1890ff;
+    border: 2px solid #1890ff;
+    border-radius: 4px;
+    color:white;
+    padding: 10px;
+    text-decoration:none;
+    font-size: 20px ; 
+    width: 100%;
+    cursor: pointer;
+} 
+#thankspic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
